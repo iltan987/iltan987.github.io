@@ -477,7 +477,8 @@ var products = [
       {
         id: 0,
         text: "X-SMALL",
-        description: "Euro Size: 34, <b>Waist:</b> 64 cm, Hips: 88 cm", // 64-67  88-92
+        description:
+          "Euro Size: 34, <strong>Waist:</strong> 64 cm, Hips: 88 cm", // 64-67  88-92
         price: 29.99,
       },
       {
