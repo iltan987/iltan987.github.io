@@ -728,31 +728,34 @@ var products = [
     options: [
       {
         id: 0,
-        text: "SMALL",
-        description: "Size: Small (S)",
+        text: "X-SMALL",
+        description:
+          "<strong>Eu Size:</strong> XS <strong>Collar Size(cm):</strong> 13-14 <strong>Neck(cm):</strong> 33-34,5 <strong>Chest(cm):</strong> 81-87 <strong>Arm(cm):</strong> 78-81",
         price: 29.99,
       },
       {
         id: 1,
-        text: "MEDIUM",
-        description: "Size: Medium (M)",
+        text: "SMALL",
+        description:
+          "<strong>Eu Size:</strong> S <strong>Collar Size(cm):</strong> 15-16 <strong>Neck(cm):</strong> 35,5-37 <strong>Chest(cm):</strong> 88-94 <strong>Arm(cm):</strong> 81-84",
         price: 34.99,
       },
       {
         id: 2,
-        text: "LARGE",
-        description: "Size: Large (L)",
+        text: "MEDIUM",
+        description:
+          "<strong>Eu Size:</strong> M <strong>Collar Size(cm):</strong> 17-18  <strong>Neck(cm):</strong> 38-39,5 <strong>Chest(cm):</strong> 96-102 <strong>Arm(cm):</strong> 84-86",
         price: 39.99,
       },
       {
         id: 3,
-        text: "X-LARGE",
+        text: "LARGE",
         description: "Size: X-Large (XL)",
         price: 49.99,
       },
       {
         id: 4,
-        text: "XX-LARGE",
+        text: "X-LARGE",
         description: "Size: xX-Large (XXL)",
         price: 59.99,
       },
