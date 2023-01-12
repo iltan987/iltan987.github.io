@@ -760,7 +760,7 @@ var products = [
         id: 0,
         text: "X-SMALL",
         description:
-          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm<strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
+          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm <strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
         price: 29.99,
       },
       {
@@ -801,7 +801,7 @@ var products = [
         id: 0,
         text: "X-SMALL",
         description:
-          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm<strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
+          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm <strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
         price: 29.99,
       },
       {
@@ -842,7 +842,7 @@ var products = [
         id: 0,
         text: "X-SMALL",
         description:
-          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm<strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
+          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm <strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
         price: 29.99,
       },
       {
@@ -883,7 +883,7 @@ var products = [
         id: 0,
         text: "X-SMALL",
         description:
-          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm<strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
+          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm <strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
         price: 29.99,
       },
       {
@@ -924,7 +924,7 @@ var products = [
         id: 0,
         text: "X-SMALL",
         description:
-          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm<strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
+          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm <strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
         price: 29.99,
       },
       {
@@ -965,7 +965,7 @@ var products = [
         id: 0,
         text: "X-SMALL",
         description:
-          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm<strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
+          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm <strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
         price: 29.99,
       },
       {
