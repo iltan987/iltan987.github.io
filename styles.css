@@ -139,3 +139,7 @@ header {
 #payment-method form table tr td:has(> hr) {
   padding: 0;
 }
+
+#products div p.product-description {
+  font-size: xxx-large;
+}
