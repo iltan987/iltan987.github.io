@@ -769,31 +769,35 @@ var products = [
     options: [
       {
         id: 0,
-        text: "SMALL",
-        description: "Size: Small (S)",
+        text: "X-SMALL",
+        description:
+          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm<strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
         price: 29.99,
       },
       {
         id: 1,
-        text: "MEDIUM",
-        description: "Size: Medium (M)",
+        text: "SMALL",
+        description:
+          "<strong>Size:</strong> S <strong>Collar Size:</strong> 15-16 cm <strong>Neck:</strong> 35.5-37 cm <strong>Chest:</strong> 88-94 cm <strong>Arm:</strong> 81-84 cm",
         price: 34.99,
       },
       {
         id: 2,
-        text: "LARGE",
-        description: "Size: Large (L)",
+        text: "MEDIUM",
+        description:
+          "<strong>Size:</strong> M <strong>Collar Size:</strong> 17-18 cm <strong>Neck:</strong> 38-39.5 cm <strong>Chest:</strong> 96-102 cm <strong>Arm:</strong> 84-86 cm",
         price: 39.99,
       },
       {
         id: 3,
-        text: "X-LARGE",
-        description: "Size: X-Large (XL)",
+        text: "LARGE",
+        description:
+          "<strong>Size:</strong> XL <strong>Collar Size:</strong> 21-22 cm <strong>Neck:</strong> 43-44.5 cm <strong>Chest:</strong> 111-117 cm <strong>Arm:</strong> 89-91 cm",
         price: 49.99,
       },
       {
         id: 4,
-        text: "XX-LARGE",
+        text: "X-LARGE",
         description: "Size: xX-Large (XXL)",
         price: 59.99,
       },
@@ -806,31 +810,35 @@ var products = [
     options: [
       {
         id: 0,
-        text: "SMALL",
-        description: "Size: Small (S)",
+        text: "X-SMALL",
+        description:
+          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm<strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
         price: 29.99,
       },
       {
         id: 1,
-        text: "MEDIUM",
-        description: "Size: Medium (M)",
+        text: "SMALL",
+        description:
+          "<strong>Size:</strong> S <strong>Collar Size:</strong> 15-16 cm <strong>Neck:</strong> 35.5-37 cm <strong>Chest:</strong> 88-94 cm <strong>Arm:</strong> 81-84 cm",
         price: 34.99,
       },
       {
         id: 2,
-        text: "LARGE",
-        description: "Size: Large (L)",
+        text: "MEDIUM",
+        description:
+          "<strong>Size:</strong> M <strong>Collar Size:</strong> 17-18 cm <strong>Neck:</strong> 38-39.5 cm <strong>Chest:</strong> 96-102 cm <strong>Arm:</strong> 84-86 cm",
         price: 39.99,
       },
       {
         id: 3,
-        text: "X-LARGE",
-        description: "Size: X-Large (XL)",
+        text: "LARGE",
+        description:
+          "<strong>Size:</strong> XL <strong>Collar Size:</strong> 21-22 cm <strong>Neck:</strong> 43-44.5 cm <strong>Chest:</strong> 111-117 cm <strong>Arm:</strong> 89-91 cm",
         price: 49.99,
       },
       {
         id: 4,
-        text: "XX-LARGE",
+        text: "X-LARGE",
         description: "Size: xX-Large (XXL)",
         price: 59.99,
       },
@@ -843,31 +851,35 @@ var products = [
     options: [
       {
         id: 0,
-        text: "SMALL",
-        description: "Size: Small (S)",
+        text: "X-SMALL",
+        description:
+          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm<strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
         price: 29.99,
       },
       {
         id: 1,
-        text: "MEDIUM",
-        description: "Size: Medium (M)",
+        text: "SMALL",
+        description:
+          "<strong>Size:</strong> S <strong>Collar Size:</strong> 15-16 cm <strong>Neck:</strong> 35.5-37 cm <strong>Chest:</strong> 88-94 cm <strong>Arm:</strong> 81-84 cm",
         price: 34.99,
       },
       {
         id: 2,
-        text: "LARGE",
-        description: "Size: Large (L)",
+        text: "MEDIUM",
+        description:
+          "<strong>Size:</strong> M <strong>Collar Size:</strong> 17-18 cm <strong>Neck:</strong> 38-39.5 cm <strong>Chest:</strong> 96-102 cm <strong>Arm:</strong> 84-86 cm",
         price: 39.99,
       },
       {
         id: 3,
-        text: "X-LARGE",
-        description: "Size: X-Large (XL)",
+        text: "LARGE",
+        description:
+          "<strong>Size:</strong> XL <strong>Collar Size:</strong> 21-22 cm <strong>Neck:</strong> 43-44.5 cm <strong>Chest:</strong> 111-117 cm <strong>Arm:</strong> 89-91 cm",
         price: 49.99,
       },
       {
         id: 4,
-        text: "XX-LARGE",
+        text: "X-LARGE",
         description: "Size: xX-Large (XXL)",
         price: 59.99,
       },
@@ -880,31 +892,35 @@ var products = [
     options: [
       {
         id: 0,
-        text: "SMALL",
-        description: "Size: Small (S)",
+        text: "X-SMALL",
+        description:
+          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm<strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
         price: 29.99,
       },
       {
         id: 1,
-        text: "MEDIUM",
-        description: "Size: Medium (M)",
+        text: "SMALL",
+        description:
+          "<strong>Size:</strong> S <strong>Collar Size:</strong> 15-16 cm <strong>Neck:</strong> 35.5-37 cm <strong>Chest:</strong> 88-94 cm <strong>Arm:</strong> 81-84 cm",
         price: 34.99,
       },
       {
         id: 2,
-        text: "LARGE",
-        description: "Size: Large (L)",
+        text: "MEDIUM",
+        description:
+          "<strong>Size:</strong> M <strong>Collar Size:</strong> 17-18 cm <strong>Neck:</strong> 38-39.5 cm <strong>Chest:</strong> 96-102 cm <strong>Arm:</strong> 84-86 cm",
         price: 39.99,
       },
       {
         id: 3,
-        text: "X-LARGE",
-        description: "Size: X-Large (XL)",
+        text: "LARGE",
+        description:
+          "<strong>Size:</strong> XL <strong>Collar Size:</strong> 21-22 cm <strong>Neck:</strong> 43-44.5 cm <strong>Chest:</strong> 111-117 cm <strong>Arm:</strong> 89-91 cm",
         price: 49.99,
       },
       {
         id: 4,
-        text: "XX-LARGE",
+        text: "X-LARGE",
         description: "Size: xX-Large (XXL)",
         price: 59.99,
       },
@@ -917,31 +933,35 @@ var products = [
     options: [
       {
         id: 0,
-        text: "SMALL",
-        description: "Size: Small (S)",
+        text: "X-SMALL",
+        description:
+          "<strong>Size:</strong> XS <strong>Collar Size:</strong> 13-14 cm<strong>Neck:</strong> 33-34.5 cm <strong>Chest:</strong> 81-87 cm <strong>Arm:</strong> 78-81 cm",
         price: 29.99,
       },
       {
         id: 1,
-        text: "MEDIUM",
-        description: "Size: Medium (M)",
+        text: "SMALL",
+        description:
+          "<strong>Size:</strong> S <strong>Collar Size:</strong> 15-16 cm <strong>Neck:</strong> 35.5-37 cm <strong>Chest:</strong> 88-94 cm <strong>Arm:</strong> 81-84 cm",
         price: 34.99,
       },
       {
         id: 2,
-        text: "LARGE",
-        description: "Size: Large (L)",
+        text: "MEDIUM",
+        description:
+          "<strong>Size:</strong> M <strong>Collar Size:</strong> 17-18 cm <strong>Neck:</strong> 38-39.5 cm <strong>Chest:</strong> 96-102 cm <strong>Arm:</strong> 84-86 cm",
         price: 39.99,
       },
       {
         id: 3,
-        text: "X-LARGE",
-        description: "Size: X-Large (XL)",
+        text: "LARGE",
+        description:
+          "<strong>Size:</strong> XL <strong>Collar Size:</strong> 21-22 cm <strong>Neck:</strong> 43-44.5 cm <strong>Chest:</strong> 111-117 cm <strong>Arm:</strong> 89-91 cm",
         price: 49.99,
       },
       {
         id: 4,
-        text: "XX-LARGE",
+        text: "X-LARGE",
         description: "Size: xX-Large (XXL)",
         price: 59.99,
       },
