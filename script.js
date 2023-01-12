@@ -940,7 +940,7 @@ function addProduct(product) {
   // Add the product description
   var descriptionEl = document.createElement("p");
   descriptionEl.className = "product-description";
-  descriptionEl.textContent = defOpt.description;
+  descriptionEl.innerHTML = defOpt.description;
   productEl.appendChild(descriptionEl);
 
   // Add the options dropdown
