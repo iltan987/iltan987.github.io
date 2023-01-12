@@ -141,5 +141,6 @@ header {
 }
 
 #products div p.product-description {
+  background-color: white;
   font-size: xxx-large;
 }
