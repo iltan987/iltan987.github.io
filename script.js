@@ -985,7 +985,7 @@ function updateProduct(productEl, product) {
   var currentOption = product.options[product.selectedOption];
   productEl.querySelector(".product-priceVal").textContent =
     currentOption.price;
-  productEl.querySelector(".product-description").textContent =
+  productEl.querySelector(".product-description").innerHTML =
     currentOption.description;
 }
 
