@@ -254,32 +254,37 @@ var products = [
     options: [
       {
         id: 0,
-        text: "SMALL",
-        description: "Size: Small (S)",
+        text: "X-SMALL",
+        description:
+          "<strong>Size:</strong> XS <strong>Wrist Circumference:</strong> 13-14 cm",
         price: 29.99,
       },
       {
         id: 1,
-        text: "MEDIUM",
-        description: "Size: Medium (M)",
+        text: "SMALL",
+        description:
+          "<strong>Size:</strong> S <strong>Wrist Circumference:</strong> 15-16 cm",
         price: 34.99,
       },
       {
         id: 2,
-        text: "LARGE",
-        description: "Size: Large (L)",
+        text: "MEDIUM",
+        description:
+          "<strong>Size:</strong> M <strong>Wrist Circumference:</strong> 17-18 cm",
         price: 39.99,
       },
       {
         id: 3,
-        text: "X-LARGE",
-        description: "Size: X-Large (XL)",
+        text: "LARGE",
+        description:
+          "<strong>Size:</strong> L <strong>Wrist Circumference:</strong> 19-20 cm",
         price: 49.99,
       },
       {
         id: 4,
-        text: "XX-LARGE",
-        description: "Size: xX-Large (XXL)",
+        text: "X-LARGE",
+        description:
+          "<strong>Size:</strong> XL <strong>Wrist Circumference:</strong> 21-22 cm",
         price: 59.99,
       },
     ],
@@ -291,32 +296,37 @@ var products = [
     options: [
       {
         id: 0,
-        text: "SMALL",
-        description: "Size: Small (S)",
+        text: "X-SMALL",
+        description:
+          "<strong>Size:</strong> XS <strong>Wrist Circumference:</strong> 13-14 cm",
         price: 29.99,
       },
       {
         id: 1,
-        text: "MEDIUM",
-        description: "Size: Medium (M)",
+        text: "SMALL",
+        description:
+          "<strong>Size:</strong> S <strong>Wrist Circumference:</strong> 15-16 cm",
         price: 34.99,
       },
       {
         id: 2,
-        text: "LARGE",
-        description: "Size: Large (L)",
+        text: "MEDIUM",
+        description:
+          "<strong>Size:</strong> M <strong>Wrist Circumference:</strong> 17-18 cm",
         price: 39.99,
       },
       {
         id: 3,
-        text: "X-LARGE",
-        description: "Size: X-Large (XL)",
+        text: "LARGE",
+        description:
+          "<strong>Size:</strong> L <strong>Wrist Circumference:</strong> 19-20 cm",
         price: 49.99,
       },
       {
         id: 4,
-        text: "XX-LARGE",
-        description: "Size: xX-Large (XXL)",
+        text: "X-LARGE",
+        description:
+          "<strong>Size:</strong> XL <strong>Wrist Circumference:</strong> 21-22 cm",
         price: 59.99,
       },
     ],
@@ -328,32 +338,37 @@ var products = [
     options: [
       {
         id: 0,
-        text: "SMALL",
-        description: "Size: Small (S)",
+        text: "X-SMALL",
+        description:
+          "<strong>Size:</strong> XS <strong>Wrist Circumference:</strong> 13-14 cm",
         price: 29.99,
       },
       {
         id: 1,
-        text: "MEDIUM",
-        description: "Size: Medium (M)",
+        text: "SMALL",
+        description:
+          "<strong>Size:</strong> S <strong>Wrist Circumference:</strong> 15-16 cm",
         price: 34.99,
       },
       {
         id: 2,
-        text: "LARGE",
-        description: "Size: Large (L)",
+        text: "MEDIUM",
+        description:
+          "<strong>Size:</strong> M <strong>Wrist Circumference:</strong> 17-18 cm",
         price: 39.99,
       },
       {
         id: 3,
-        text: "X-LARGE",
-        description: "Size: X-Large (XL)",
+        text: "LARGE",
+        description:
+          "<strong>Size:</strong> L <strong>Wrist Circumference:</strong> 19-20 cm",
         price: 49.99,
       },
       {
         id: 4,
-        text: "XX-LARGE",
-        description: "Size: xX-Large (XXL)",
+        text: "X-LARGE",
+        description:
+          "<strong>Size:</strong> XL <strong>Wrist Circumference:</strong> 21-22 cm",
         price: 59.99,
       },
     ],
@@ -365,32 +380,37 @@ var products = [
     options: [
       {
         id: 0,
-        text: "SMALL",
-        description: "Size: Small (S)",
+        text: "X-SMALL",
+        description:
+          "<strong>Size:</strong> XS <strong>Wrist Circumference:</strong> 13-14 cm",
         price: 29.99,
       },
       {
         id: 1,
-        text: "MEDIUM",
-        description: "Size: Medium (M)",
+        text: "SMALL",
+        description:
+          "<strong>Size:</strong> S <strong>Wrist Circumference:</strong> 15-16 cm",
         price: 34.99,
       },
       {
         id: 2,
-        text: "LARGE",
-        description: "Size: Large (L)",
+        text: "MEDIUM",
+        description:
+          "<strong>Size:</strong> M <strong>Wrist Circumference:</strong> 17-18 cm",
         price: 39.99,
       },
       {
         id: 3,
-        text: "X-LARGE",
-        description: "Size: X-Large (XL)",
+        text: "LARGE",
+        description:
+          "<strong>Size:</strong> L <strong>Wrist Circumference:</strong> 19-20 cm",
         price: 49.99,
       },
       {
         id: 4,
-        text: "XX-LARGE",
-        description: "Size: xX-Large (XXL)",
+        text: "X-LARGE",
+        description:
+          "<strong>Size:</strong> XL <strong>Wrist Circumference:</strong> 21-22 cm",
         price: 59.99,
       },
     ],
@@ -402,32 +422,37 @@ var products = [
     options: [
       {
         id: 0,
-        text: "SMALL",
-        description: "Size: Small (S)",
+        text: "X-SMALL",
+        description:
+          "<strong>Size:</strong> XS <strong>Wrist Circumference:</strong> 13-14 cm",
         price: 29.99,
       },
       {
         id: 1,
-        text: "MEDIUM",
-        description: "Size: Medium (M)",
+        text: "SMALL",
+        description:
+          "<strong>Size:</strong> S <strong>Wrist Circumference:</strong> 15-16 cm",
         price: 34.99,
       },
       {
         id: 2,
-        text: "LARGE",
-        description: "Size: Large (L)",
+        text: "MEDIUM",
+        description:
+          "<strong>Size:</strong> M <strong>Wrist Circumference:</strong> 17-18 cm",
         price: 39.99,
       },
       {
         id: 3,
-        text: "X-LARGE",
-        description: "Size: X-Large (XL)",
+        text: "LARGE",
+        description:
+          "<strong>Size:</strong> L <strong>Wrist Circumference:</strong> 19-20 cm",
         price: 49.99,
       },
       {
         id: 4,
-        text: "XX-LARGE",
-        description: "Size: xX-Large (XXL)",
+        text: "X-LARGE",
+        description:
+          "<strong>Size:</strong> XL <strong>Wrist Circumference:</strong> 21-22 cm",
         price: 59.99,
       },
     ],
@@ -439,32 +464,37 @@ var products = [
     options: [
       {
         id: 0,
-        text: "SMALL",
-        description: "Size: Small (S)",
+        text: "X-SMALL",
+        description:
+          "<strong>Size:</strong> XS <strong>Wrist Circumference:</strong> 13-14 cm",
         price: 29.99,
       },
       {
         id: 1,
-        text: "MEDIUM",
-        description: "Size: Medium (M)",
+        text: "SMALL",
+        description:
+          "<strong>Size:</strong> S <strong>Wrist Circumference:</strong> 15-16 cm",
         price: 34.99,
       },
       {
         id: 2,
-        text: "LARGE",
-        description: "Size: Large (L)",
+        text: "MEDIUM",
+        description:
+          "<strong>Size:</strong> M <strong>Wrist Circumference:</strong> 17-18 cm",
         price: 39.99,
       },
       {
         id: 3,
-        text: "X-LARGE",
-        description: "Size: X-Large (XL)",
+        text: "LARGE",
+        description:
+          "<strong>Size:</strong> L <strong>Wrist Circumference:</strong> 19-20 cm",
         price: 49.99,
       },
       {
         id: 4,
-        text: "XX-LARGE",
-        description: "Size: xX-Large (XXL)",
+        text: "X-LARGE",
+        description:
+          "<strong>Size:</strong> XL <strong>Wrist Circumference:</strong> 21-22 cm",
         price: 59.99,
       },
     ],
