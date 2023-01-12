@@ -158,7 +158,7 @@ header {
   float: right;
 }
 
-td:has(p > .totalPrice) {
+td:has(> p > .totalPrice) {
   background-color: black;
   text-align: center;
   border: 5px solid black;
