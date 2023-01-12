@@ -934,7 +934,7 @@ function addProduct(product) {
 
   // Add the product name
   var nameEl = document.createElement("h3");
-  nameEl.textContent = product.name;
+  nameEl.innerHTML = product.name;
   productEl.appendChild(nameEl);
 
   var defOpt = product.options[product.selectedOption];
@@ -952,7 +952,7 @@ function addProduct(product) {
     // Create an option element for each option in the product
     var optionEl = document.createElement("option");
     optionEl.value = option.id;
-    optionEl.textContent = option.text;
+    optionEl.innerHTML = option.text;
     selectEl.appendChild(optionEl);
   });
   productEl.appendChild(selectEl);
@@ -961,17 +961,17 @@ function addProduct(product) {
   var priceEl = document.createElement("p");
   var priceElUnit = document.createElement("span");
   priceElUnit.className = "product-priceUnit";
-  priceElUnit.textContent = "$";
+  priceElUnit.innerHTML = "$";
   priceEl.appendChild(priceElUnit);
   var priceElValue = document.createElement("span");
   priceElValue.className = "product-priceVal";
-  priceElValue.textContent = defOpt.price;
+  priceElValue.innerHTML = defOpt.price;
   priceEl.appendChild(priceElValue);
   productEl.appendChild(priceEl);
 
   // Add an "Add to Basket" button
   var buttonEl = document.createElement("button");
-  buttonEl.textContent = "Add to Basket";
+  buttonEl.innerHTML = "Add to Basket";
   buttonEl.addEventListener("click", (a) => addToBasket(product));
   productEl.appendChild(buttonEl);
 
@@ -984,8 +984,7 @@ function updateProduct(productEl, product) {
   var selectedEl = productEl.querySelector(".product-options");
   product.selectedOption = selectedEl.value;
   var currentOption = product.options[product.selectedOption];
-  productEl.querySelector(".product-priceVal").textContent =
-    currentOption.price;
+  productEl.querySelector(".product-priceVal").innerHTML = currentOption.price;
   productEl.querySelector(".product-description").innerHTML =
     currentOption.description;
 }
@@ -1025,14 +1024,14 @@ function updateBasket() {
     var product = products[item.element];
     var currOption = product.options[item.option];
     totalPrice += currOption.price * item.count;
-    itemEl.textContent = `${product.name} - $${currOption.price.toFixed(2)} (${
+    itemEl.innerHTML = `${product.name} - $${currOption.price.toFixed(2)} (${
       currOption.text
     }) (x${item.count})`;
     listEl.appendChild(itemEl);
   });
   basketEl.appendChild(listEl);
 
-  document.getElementById("totalPrice").textContent = totalPrice.toFixed(2);
+  document.getElementById("totalPrice").innerHTML = totalPrice.toFixed(2);
 }
 
 products.forEach(addProduct);
