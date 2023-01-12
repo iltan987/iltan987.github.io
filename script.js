@@ -478,35 +478,35 @@ var products = [
         id: 0,
         text: "X-SMALL",
         description:
-          "<strong>Euro Size:</strong> 34, <strong>Waist:</strong> 64 cm, <strong>Hips:</strong> 88 cm", // 64-67  88-92
+          "<strong>Size:</strong> 34 <strong>Waist:</strong> 64 cm <strong>Hips:</strong> 88 cm", // 64-67  88-92
         price: 29.99,
       },
       {
         id: 1,
         text: "SMALL",
         description:
-          "<strong>Euro Size:</strong> 36, <strong>Waist:</strong> 67 cm, <strong>Hips:</strong> 92 cm", // 67-71  92-96
+          "<strong>Size:</strong> 36 <strong>Waist:</strong> 67 cm <strong>Hips:</strong> 92 cm", // 67-71  92-96
         price: 34.99,
       },
       {
         id: 2,
         text: "MEDIUM",
         description:
-          "<strong>Euro Size:</strong> 38, <strong>Waist:</strong> 71 cm, <strong>Hips:</strong> 96 cm", // 71-75  96-99
+          "<strong>Size:</strong> 38 <strong>Waist:</strong> 71 cm <strong>Hips:</strong> 96 cm", // 71-75  96-99
         price: 39.99,
       },
       {
         id: 3,
         text: "LARGE",
         description:
-          "<strong>Euro Size:</strong> 40, <strong>Waist:</strong> 75 cm, <strong>Hips:</strong> 99 cm", // 75-79  99-102
+          "<strong>Size:</strong> 40 <strong>Waist:</strong> 75 cm <strong>Hips:</strong> 99 cm", // 75-79  99-102
         price: 49.99,
       },
       {
         id: 4,
         text: "X-LARGE",
         description:
-          "<strong>Euro Size:</strong> 42, <strong>Waist:</strong> 79 cm, <strong>Hips:</strong> 102 cm", // 79-83  102-105
+          "<strong>Size:</strong> 42 <strong>Waist:</strong> 79 cm <strong>Hips:</strong> 102 cm", // 79-83  102-105
         price: 59.99,
       },
     ],
@@ -520,35 +520,35 @@ var products = [
         id: 0,
         text: "X-SMALL",
         description:
-          "<strong>Euro Size:</strong> 34, <strong>Waist:</strong> 65 cm, <strong>Hips:</strong> 88 cm", // 64-67  88-92
+          "<strong>Size:</strong> 34 <strong>Waist:</strong> 65 cm <strong>Hips:</strong> 88 cm", // 64-67  88-92
         price: 29.99,
       },
       {
         id: 1,
         text: "SMALL",
         description:
-          "<strong>Euro Size:</strong> 36, <strong>Waist:</strong> 68 cm, <strong>Hips:</strong> 92 cm", // 67-71  92-96
+          "<strong>Size:</strong> 36 <strong>Waist:</strong> 68 cm <strong>Hips:</strong> 92 cm", // 67-71  92-96
         price: 34.99,
       },
       {
         id: 2,
         text: "MEDIUM",
         description:
-          "<strong>Euro Size:</strong> 38, <strong>Waist:</strong> 72 cm, <strong>Hips:</strong> 96 cm", // 71-75  96-99
+          "<strong>Size:</strong> 38 <strong>Waist:</strong> 72 cm <strong>Hips:</strong> 96 cm", // 71-75  96-99
         price: 39.99,
       },
       {
         id: 3,
         text: "LARGE",
         description:
-          "<strong>Euro Size:</strong> 40, <strong>Waist:</strong> 76 cm, <strong>Hips:</strong> 99 cm", // 75-79  99-102
+          "<strong>Size:</strong> 40 <strong>Waist:</strong> 76 cm <strong>Hips:</strong> 99 cm", // 75-79  99-102
         price: 49.99,
       },
       {
         id: 4,
         text: "X-LARGE",
         description:
-          "<strong>Euro Size:</strong> 42, <strong>Waist:</strong> 80 cm, <strong>Hips:</strong> 102 cm", // 79-83  102-105
+          "<strong>Size:</strong> 42 <strong>Waist:</strong> 80 cm <strong>Hips:</strong> 102 cm", // 79-83  102-105
         price: 59.99,
       },
     ],
@@ -562,35 +562,35 @@ var products = [
         id: 0,
         text: "X-SMALL",
         description:
-          "<strong>Euro Size:</strong> 34, <strong>Waist:</strong> 66 cm, <strong>Hips:</strong> 88 cm", // 64-67  88-92
+          "<strong>Size:</strong> 34 <strong>Waist:</strong> 66 cm <strong>Hips:</strong> 88 cm", // 64-67  88-92
         price: 29.99,
       },
       {
         id: 1,
         text: "SMALL",
         description:
-          "<strong>Euro Size:</strong> 36, <strong>Waist:</strong> 69 cm, <strong>Hips:</strong> 92 cm", // 67-71  92-96
+          "<strong>Size:</strong> 36 <strong>Waist:</strong> 69 cm <strong>Hips:</strong> 92 cm", // 67-71  92-96
         price: 34.99,
       },
       {
         id: 2,
         text: "MEDIUM",
         description:
-          "<strong>Euro Size:</strong> 38, <strong>Waist:</strong> 73 cm, <strong>Hips:</strong> 96 cm", // 71-75  96-99
+          "<strong>Size:</strong> 38 <strong>Waist:</strong> 73 cm <strong>Hips:</strong> 96 cm", // 71-75  96-99
         price: 39.99,
       },
       {
         id: 3,
         text: "LARGE",
         description:
-          "<strong>Euro Size:</strong> 40, <strong>Waist:</strong> 77 cm, <strong>Hips:</strong> 99 cm", // 75-79  99-102
+          "<strong>Size:</strong> 40 <strong>Waist:</strong> 77 cm <strong>Hips:</strong> 99 cm", // 75-79  99-102
         price: 49.99,
       },
       {
         id: 4,
         text: "X-LARGE",
         description:
-          "<strong>Euro Size:</strong> 42, <strong>Waist:</strong> 81 cm, <strong>Hips:</strong> 102 cm", // 79-83  102-105
+          "<strong>Size:</strong> 42 <strong>Waist:</strong> 81 cm <strong>Hips:</strong> 102 cm", // 79-83  102-105
         price: 59.99,
       },
     ],
@@ -604,35 +604,35 @@ var products = [
         id: 0,
         text: "X-SMALL",
         description:
-          "<strong>Euro Size:</strong> 34, <strong>Waist:</strong> 64 cm, <strong>Hips:</strong> 89 cm", // 64-67  88-92
+          "<strong>Size:</strong> 34 <strong>Waist:</strong> 64 cm <strong>Hips:</strong> 89 cm", // 64-67  88-92
         price: 29.99,
       },
       {
         id: 1,
         text: "SMALL",
         description:
-          "<strong>Euro Size:</strong> 36, <strong>Waist:</strong> 70 cm, <strong>Hips:</strong> 92 cm", // 67-71  92-96
+          "<strong>Size:</strong> 36 <strong>Waist:</strong> 70 cm <strong>Hips:</strong> 92 cm", // 67-71  92-96
         price: 34.99,
       },
       {
         id: 2,
         text: "MEDIUM",
         description:
-          "<strong>Euro Size:</strong> 38, <strong>Waist:</strong> 74 cm, <strong>Hips:</strong> 96 cm", // 71-75  96-99
+          "<strong>Size:</strong> 38 <strong>Waist:</strong> 74 cm <strong>Hips:</strong> 96 cm", // 71-75  96-99
         price: 39.99,
       },
       {
         id: 3,
         text: "LARGE",
         description:
-          "<strong>Euro Size:</strong> 40, <strong>Waist:</strong> 78 cm, <strong>Hips:</strong> 99 cm", // 75-79  99-102
+          "<strong>Size:</strong> 40 <strong>Waist:</strong> 78 cm <strong>Hips:</strong> 99 cm", // 75-79  99-102
         price: 49.99,
       },
       {
         id: 4,
         text: "X-LARGE",
         description:
-          "<strong>Euro Size:</strong> 42, <strong>Waist:</strong> 82 cm, <strong>Hips:</strong> 102 cm", // 79-83  102-105
+          "<strong>Size:</strong> 42 <strong>Waist:</strong> 82 cm <strong>Hips:</strong> 102 cm", // 79-83  102-105
         price: 59.99,
       },
     ],
@@ -646,35 +646,35 @@ var products = [
         id: 0,
         text: "X-SMALL",
         description:
-          "<strong>Euro Size:</strong> 34, <strong>Waist:</strong> 65 cm, <strong>Hips:</strong> 89 cm", // 64-67  88-92
+          "<strong>Size:</strong> 34 <strong>Waist:</strong> 65 cm <strong>Hips:</strong> 89 cm", // 64-67  88-92
         price: 29.99,
       },
       {
         id: 1,
         text: "SMALL",
         description:
-          "<strong>Euro Size:</strong> 36, <strong>Waist:</strong> 67 cm, <strong>Hips:</strong> 93 cm", // 67-71  92-96
+          "<strong>Size:</strong> 36 <strong>Waist:</strong> 67 cm <strong>Hips:</strong> 93 cm", // 67-71  92-96
         price: 34.99,
       },
       {
         id: 2,
         text: "MEDIUM",
         description:
-          "<strong>Euro Size:</strong> 38, <strong>Waist:</strong> 71 cm, <strong>Hips:</strong> 97 cm", // 71-75  96-99
+          "<strong>Size:</strong> 38 <strong>Waist:</strong> 71 cm <strong>Hips:</strong> 97 cm", // 71-75  96-99
         price: 39.99,
       },
       {
         id: 3,
         text: "LARGE",
         description:
-          "<strong>Euro Size:</strong> 40, <strong>Waist:</strong> 75 cm, <strong>Hips:</strong> 100 cm", // 75-79  99-102
+          "<strong>Size:</strong> 40 <strong>Waist:</strong> 75 cm <strong>Hips:</strong> 100 cm", // 75-79  99-102
         price: 49.99,
       },
       {
         id: 4,
         text: "X-LARGE",
         description:
-          "<strong>Euro Size:</strong> 42, <strong>Waist:</strong> 79 cm, <strong>Hips:</strong> 103 cm", // 79-83  102-105
+          "<strong>Size:</strong> 42 <strong>Waist:</strong> 79 cm <strong>Hips:</strong> 103 cm", // 79-83  102-105
         price: 59.99,
       },
     ],
@@ -688,35 +688,35 @@ var products = [
         id: 0,
         text: "X-SMALL",
         description:
-          "<strong>Euro Size:</strong> 34, <strong>Waist:</strong> 66 cm, <strong>Hips:</strong> 89 cm", // 64-67  88-92
+          "<strong>Size:</strong> 34 <strong>Waist:</strong> 66 cm <strong>Hips:</strong> 89 cm", // 64-67  88-92
         price: 29.99,
       },
       {
         id: 1,
         text: "SMALL",
         description:
-          "<strong>Euro Size:</strong> 36, <strong>Waist:</strong> 68 cm, <strong>Hips:</strong> 93 cm", // 67-71  92-96
+          "<strong>Size:</strong> 36 <strong>Waist:</strong> 68 cm <strong>Hips:</strong> 93 cm", // 67-71  92-96
         price: 34.99,
       },
       {
         id: 2,
         text: "MEDIUM",
         description:
-          "<strong>Euro Size:</strong> 38, <strong>Waist:</strong> 72 cm, <strong>Hips:</strong> 97 cm", // 71-75  96-99
+          "<strong>Size:</strong> 38 <strong>Waist:</strong> 72 cm <strong>Hips:</strong> 97 cm", // 71-75  96-99
         price: 39.99,
       },
       {
         id: 3,
         text: "LARGE",
         description:
-          "<strong>Euro Size:</strong> 40, <strong>Waist:</strong> 76 cm, <strong>Hips:</strong> 100 cm", // 75-79  99-102
+          "<strong>Size:</strong> 40 <strong>Waist:</strong> 76 cm <strong>Hips:</strong> 100 cm", // 75-79  99-102
         price: 49.99,
       },
       {
         id: 4,
         text: "X-LARGE",
         description:
-          "<strong>Euro Size:</strong> 42, <strong>Waist:</strong> 80 cm, <strong>Hips:</strong> 103 cm", // 79-83  102-105
+          "<strong>Size:</strong> 42 <strong>Waist:</strong> 80 cm <strong>Hips:</strong> 103 cm", // 79-83  102-105
         price: 59.99,
       },
     ],
