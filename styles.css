@@ -1,4 +1,3 @@
-/* Add some basic styling for the website */
 body {
   margin: 0;
   padding: 0;
@@ -142,24 +141,4 @@ header {
 
 #products div p.product-description {
   font-size: smaller;
-}
-
-#payment-method form table tr:nth-child(2) td {
-  text-align: center;
-}
-
-#payment-method form table tr:nth-child(8) select {
-  width: 100%;
-  text-align: center;
-}
-
-#payment-method > form > table > tbody > tr:nth-child(12) > td > table {
-  width: fit-content;
-  float: right;
-}
-
-td:has(> p > .totalPrice) {
-  background-color: black;
-  text-align: center;
-  border: 5px solid black;
 }
