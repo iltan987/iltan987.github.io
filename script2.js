@@ -3,8 +3,8 @@ function checkout() {
     confirm(
       `Please confirm your order of $${
         totalPrice > 1000
-          ? ${totalPrice.toFixed(2)}
-          : ${(totalPrice * 1.1).toFixed(2)}
+          ? totalPrice.toFixed(2)
+          : (totalPrice * 1.1).toFixed(2)
       } by clicking 'OK' before proceeding.`
     )
   ) {
