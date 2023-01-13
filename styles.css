@@ -130,13 +130,13 @@ header {
   width: 100%;
 }
 
+#payment-method form table tr td:has(> hr) {
+  padding: 0;
+}
+
 #payment-method form table tr td hr {
   background-color: #333;
   opacity: 0.5;
-}
-
-#payment-method form table tr td:has(> hr) {
-  padding: 0;
 }
 
 #products div p.product-description {
@@ -152,11 +152,26 @@ header {
   text-align: center;
 }
 
-#payment-method form table table:has(#totalPrice) {
+#payment-method form table table:has(#totalPrice),
+#payment-method form table tr:nth-child(13) td table {
   width: fit-content;
   float: right;
 }
 
 td:has(> p > span#totalPrice) {
   text-align: center;
+}
+
+#payment-method form table tr:nth-child(13) td table tr td button {
+  border-radius: 20px;
+  border: 1px solid #333;
+  height: 40px;
+  width: 100px;
+}
+
+#payment-method form table tr:nth-child(12) td {
+  padding-bottom: 0;
+}
+#payment-method form table tr:nth-child(13) td {
+  padding: 0;
 }

@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Products</title>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
@@ -94,7 +93,7 @@
                         <td>
                           <input
                             id="cardNum1"
-                            onchange="test123('cardNum1')"
+                            onchange="setMaximumCardNumber('cardNum1')"
                             type="number"
                             name="cardNum1"
                             maxlength="4"
@@ -103,7 +102,7 @@
                         <td>
                           <input
                             id="cardNum2"
-                            onchange="test123('cardNum2')"
+                            onchange="setMaximumCardNumber('cardNum2')"
                             type="number"
                             name="cardNum2"
                             maxlength="4"
@@ -112,7 +111,7 @@
                         <td>
                           <input
                             id="cardNum3"
-                            onchange="test123('cardNum3')"
+                            onchange="setMaximumCardNumber('cardNum3')"
                             type="number"
                             name="cardNum3"
                             maxlength="4"
@@ -121,7 +120,7 @@
                         <td>
                           <input
                             id="cardNum4"
-                            onchange="test123('cardNum4')"
+                            onchange="setMaximumCardNumber('cardNum4')"
                             type="number"
                             name="cardNum4"
                             maxlength="4"
@@ -214,12 +213,40 @@
                     </table>
                   </td>
                 </tr>
+                <tr>
+                  <td colspan="2">
+                    <table>
+                      <tr>
+                        <td>
+                          <button
+                            id="btnEmptyCart"
+                            type="button"
+                            onclick="emptyCart()"
+                          >
+                            Empty Cart
+                          </button>
+                        </td>
+                        <td>
+                          <button
+                            id="btnCheckout"
+                            type="button"
+                            disabled
+                            onclick="checkout()"
+                          >
+                            Checkout
+                          </button>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
               </table>
             </form>
           </div>
         </div>
       </section>
     </main>
-    <script src="script.js"></script>
+    <script src="script1.js"></script>
+    <script src="script2.js"></script>
   </body>
 </html>
