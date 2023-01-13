@@ -1,6 +1,12 @@
 function checkout() {
   if (
-    confirm("Please confirm your order by clicking 'OK' before proceeding.")
+    confirm(
+      `Please confirm your order of $${
+        totalPrice > 1000
+          ? ${totalPrice.toFixed(2)}
+          : ${(totalPrice * 1.1).toFixed(2)}
+      } by clicking 'OK' before proceeding.`
+    )
   ) {
     alert(
       "Thank you for confirming your order. Your purchase is being processed and will be shipped to you as soon as possible. Thank you for shopping with us!"
@@ -152,9 +158,9 @@ function updateBasket() {
   document.getElementById("totalPrice").innerHTML =
     totalPrice > 1000
       ? `${totalPrice.toFixed(2)}`
-      : `${totalPrice.toFixed(2)} + ${(totalPrice * 0.1).toFixed(2)}<br />${(
-          totalPrice * 1.1
-        ).toFixed(2)}`;
+      : `${totalPrice.toFixed(2)} + ${(totalPrice * 0.1).toFixed(
+          2
+        )} delivery<br />${(totalPrice * 1.1).toFixed(2)}`;
 }
 
 function removeFromBasket(item) {
