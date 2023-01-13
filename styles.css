@@ -142,3 +142,21 @@ header {
 #products div p.product-description {
   font-size: smaller;
 }
+
+#payment-method form table tr:nth-child(2) td table tr td {
+  text-align: center;
+}
+
+#payment-method form table tr:nth-child(8) td table tr td select {
+  width: 100%;
+  text-align: center;
+}
+
+#payment-method form table table:has(#totalPrice) {
+  width: fit-content;
+  float: right;
+}
+
+td:has(> p > span#totalPrice) {
+  text-align: center;
+}
