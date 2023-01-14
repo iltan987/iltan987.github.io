@@ -162,7 +162,7 @@ td:has(> p > span#totalPrice) {
   text-align: center;
 }
 
-#payment-method form table tr:nth-child(13) td table tr td button {
+#payment-method form table tr:nth-child(13) td table tr td input {
   border-radius: 20px;
   border: 1px solid #333;
   height: 40px;

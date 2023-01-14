@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Products</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.png">
   </head>
   <body>
     <header>
@@ -218,22 +219,22 @@
                     <table>
                       <tr>
                         <td>
-                          <button
+                          <input
                             id="btnEmptyCart"
-                            type="button"
+                            type="reset"
                             onclick="emptyCart()"
+                            value="Empty Cart"
                           >
-                            Empty Cart
                           </button>
                         </td>
                         <td>
-                          <button
+                          <input
                             id="btnCheckout"
-                            type="button"
+                            type="submit"
                             disabled
                             onclick="checkout()"
+                            value="Checkout"
                           >
-                            Checkout
                           </button>
                         </td>
                       </tr>
