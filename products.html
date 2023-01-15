@@ -46,6 +46,7 @@
                               type="radio"
                               name="payment"
                               value="visa"
+                              required
                             />Visa</label
                           >
                         </td>
@@ -55,6 +56,7 @@
                               type="radio"
                               name="payment"
                               value="mastercard"
+                              required
                             />MasterCard</label
                           >
                         </td>
@@ -73,7 +75,7 @@
                     <table>
                       <tr>
                         <td>
-                          <input type="text" name="name1" maxlength="15" />
+                          <input type="text" name="name1" maxlength="15" required />
                         </td>
                         <td>
                           <input type="text" name="name2" maxlength="15" />
@@ -104,7 +106,9 @@
                             onchange="setMaximumCardNumber('cardNum1')"
                             type="number"
                             name="cardNum1"
+                            minlength="4"
                             maxlength="4"
+                            required
                           />
                         </td>
                         <td>
@@ -113,7 +117,9 @@
                             onchange="setMaximumCardNumber('cardNum2')"
                             type="number"
                             name="cardNum2"
+                            minlength="4"
                             maxlength="4"
+                            required
                           />
                         </td>
                         <td>
@@ -122,7 +128,9 @@
                             onchange="setMaximumCardNumber('cardNum3')"
                             type="number"
                             name="cardNum3"
+                            minlength="4"
                             maxlength="4"
+                            required
                           />
                         </td>
                         <td>
@@ -131,7 +139,9 @@
                             onchange="setMaximumCardNumber('cardNum4')"
                             type="number"
                             name="cardNum4"
+                            minlength="4"
                             maxlength="4"
+                            required
                           />
                         </td>
                       </tr>
@@ -149,7 +159,7 @@
                     <table>
                       <tr>
                         <td>
-                          <select name="month">
+                          <select name="month" title="Please select month" required>
                             <option value="1">January</option>
                             <option value="2">February</option>
                             <option value="3">March</option>
@@ -162,10 +172,11 @@
                             <option value="10">October</option>
                             <option value="11">November</option>
                             <option value="12">December</option>
+                            required
                           </select>
                         </td>
                         <td>
-                          <select name="year">
+                          <select name="year" title="Please select year" required>
                             <option value="2022">2022</option>
                             <option value="2023">2023</option>
                             <option value="2024">2024</option>
@@ -199,7 +210,7 @@
                 <tr>
                   <th>CVV:</th>
                   <td>
-                    <input type="text" name="cvv" size="3" maxlength="3" />
+                    <input type="text" name="cvv" minlength="3" size="3" maxlength="3" required />
                   </td>
                 </tr>
                 <tr>
