@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css?test=3" />
+    <title>BROSMAN - Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.png">
+  </head>
+  <body>
+    <header>
+      <ul id="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </header>
+    <main>
+      <section id="products">
+        <table id="products-table">
+          
+        </table>
+      </section>
+      <section id="basket">
+        <h1>Basket</h1>
+        <hr />
+        <div id="container-basket">
+          <div id="selected-products"></div>
+          <div id="payment-method">
+            <form>
+              <table>
+                <tr>
+                  <th colspan="2">Choose your payment method</th>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <table>
+                      <tr>
+                        <td>
+                          <label
+                            ><input
+                              type="radio"
+                              name="payment"
+                              value="visa"
+                            />Visa</label
+                          >
+                        </td>
+                        <td>
+                          <label
+                            ><input
+                              type="radio"
+                              name="payment"
+                              value="mastercard"
+                            />MasterCard</label
+                          >
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <hr />
+                  </td>
+                </tr>
+                <tr>
+                  <th>Name on the Card:</th>
+                  <td>
+                    <table>
+                      <tr>
+                        <td>
+                          <input type="text" name="name1" maxlength="15" />
+                        </td>
+                        <td>
+                          <input type="text" name="name2" maxlength="15" />
+                        </td>
+                        <td>
+                          <input type="text" name="name3" maxlength="15" />
+                        </td>
+                        <td>
+                          <input type="text" name="name4" maxlength="15" />
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <hr />
+                  </td>
+                </tr>
+                <tr>
+                  <th>Card Number</th>
+                  <td>
+                    <table>
+                      <tr>
+                        <td>
+                          <input
+                            id="cardNum1"
+                            onchange="setMaximumCardNumber('cardNum1')"
+                            type="number"
+                            name="cardNum1"
+                            maxlength="4"
+                          />
+                        </td>
+                        <td>
+                          <input
+                            id="cardNum2"
+                            onchange="setMaximumCardNumber('cardNum2')"
+                            type="number"
+                            name="cardNum2"
+                            maxlength="4"
+                          />
+                        </td>
+                        <td>
+                          <input
+                            id="cardNum3"
+                            onchange="setMaximumCardNumber('cardNum3')"
+                            type="number"
+                            name="cardNum3"
+                            maxlength="4"
+                          />
+                        </td>
+                        <td>
+                          <input
+                            id="cardNum4"
+                            onchange="setMaximumCardNumber('cardNum4')"
+                            type="number"
+                            name="cardNum4"
+                            maxlength="4"
+                          />
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <hr />
+                  </td>
+                </tr>
+                <tr>
+                  <th>Expire date:</th>
+                  <td>
+                    <table>
+                      <tr>
+                        <td>
+                          <select name="month">
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                          </select>
+                        </td>
+                        <td>
+                          <select name="year">
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                            <option value="2031">2031</option>
+                            <option value="2032">2032</option>
+                            <option value="2033">2033</option>
+                            <option value="2034">2034</option>
+                            <option value="2035">2035</option>
+                            <option value="2036">2036</option>
+                            <option value="2037">2037</option>
+                            <option value="2038">2038</option>
+                            <option value="2039">2039</option>
+                            <option value="2040">2040</option>
+                          </select>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <hr />
+                  </td>
+                </tr>
+                <tr>
+                  <th>CVV:</th>
+                  <td>
+                    <input type="text" name="cvv" size="3" maxlength="3" />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <hr />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <table>
+                      <tr>
+                        <th>Total</th>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p>$<span id="totalPrice">0.00</span></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <table>
+                      <tr>
+                        <td>
+                          <input
+                            id="btnEmptyCart"
+                            type="reset"
+                            onclick="emptyCart()"
+                            value="Empty Cart"
+                          >
+                          </button>
+                        </td>
+                        <td>
+                          <input
+                            id="btnCheckout"
+                            type="submit"
+                            disabled
+                            onclick="checkout()"
+                            value="Checkout"
+                          >
+                          </button>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script1.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>
