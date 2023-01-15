@@ -55,9 +55,9 @@ main {
   text-align: center;
   border: 1px solid #333;
   border-radius: 10px;
-  /* margin-bottom: 20px;
-  margin-right: 20px; */
-  /*padding: 15px;*/
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 15px;
 }
 
 #products-table > tr > td:last-child > .product-card {
@@ -110,7 +110,7 @@ main {
 
 #basket {
   border: 1px solid #333;
-  /* padding: 10px; */
+  padding: 10px;
   border-radius: 10px;
 }
 
@@ -129,19 +129,19 @@ main {
 }
 
 #payment-method {
-  /* margin-left: auto;
-  margin-right: 0; */
+  margin-left: auto;
+  margin-right: 0;
   width: 50%;
 }
 
 #payment-method tr th,
 #payment-method tr td {
-  /* padding: 20px; */
+  padding: 20px;
 }
 
 #payment-method form table tr td table tr td,
 #payment-method form table tr td table tr th {
-  /* padding: 0; */
+  padding: 0;
 }
 
 #payment-method form table tr td table {
@@ -149,7 +149,7 @@ main {
 }
 
 #payment-method form table tr td:has(> hr) {
-  /* padding: 0; */
+  padding: 0;
 }
 
 #payment-method form table tr td hr {
@@ -188,8 +188,8 @@ td:has(> p > span#totalPrice) {
 }
 
 #payment-method form table tr:nth-child(12) td {
-  /* padding-bottom: 0; */
+  padding-bottom: 0;
 }
 #payment-method form table tr:nth-child(13) td {
-  /* padding: 0; */
+  padding: 0;
 }
