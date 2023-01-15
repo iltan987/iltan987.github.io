@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #aaa;
+}
+
+/* Style the product cards */
+
+main {
+  padding: 20px;
+}
+
+#products-table {
+  width: 100%;
+}
+
+.product-card {
+  text-align: center;
+  border: 1px solid #333;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+#products-table > tr > td:last-child > .product-card {
+  /* last product-card element for each row shouldn't have the margin-right */
+  margin-right: 0px;
+}
+
+.product-card > a > img {
+  cursor: pointer;
+  height: 400px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  margin: 0;
+}
+
+#products .product-description {
+  font-size: small;
+}
+
+.product-card .product-options {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.product-card .product-price {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.product-card > .product-price:before {
+  content: "$";
+}
+
+.product-card button {
+  border-radius: 15px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #666;
+}
+
+/* Style the Basket part */
+
+#basket {
+  border: 1px solid #333;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#basket > h1 {
+  text-align: center;
+}
+
+#basket > hr {
+  border: none;
+  height: 2px;
+  background-color: #333;
+}
+
+#container-basket {
+  display: flex;
+}
+
+#payment-method {
+  margin-left: auto;
+  width: 50%;
+}
+
+#payment-method > form > table > tbody > tr > th {
+  padding: 5px;
+}
+
+#payment-method > form > table > tbody > tr > td {
+  padding: 20px;
+}
+
+#payment-method > form > table > tbody > tr > td:has(> hr) {
+  /* Table cells containing hr shouldn't have padding */
+  padding: 0;
+}
+
+#payment-method > form > table > tbody > tr > td > hr {
+  background-color: #333;
+  opacity: 0.5;
+}
+
+#payment-method > form > table > tbody > tr > td > table {
+  width: 100%;
+}
+
+#payment-method input[type="text"] {
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+  padding: 5px;
+}
+
+#payment-method
+  > form
+  > table
+  > tbody
+  > tr:nth-child(2)
+  > td
+  > table
+  > tbody
+  > tr
+  > td {
+  text-align: center; /* payment method radio buttons */
+}
+
+#payment-method > form > table > tbody > tr:nth-child(8) td table tr td select {
+  /* month and year selection*/
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+#payment-method form table table:has(#totalPrice),
+#payment-method form table tr:last-child td table {
+  /* Total price and submit buttons are right aligned and auto size*/
+  width: fit-content;
+  float: right;
+}
+
+td:has(> #totalPrice) {
+  text-align: center;
+}
+
+#payment-method form table tr:nth-child(13) td table tr td input {
+  border-radius: 20px;
+  border: 1px solid #fff;
+  height: 40px;
+  width: 100px;
+}
+
+#payment-method form table tr:nth-child(12) td {
+  padding-bottom: 0;
+}
+#payment-method form table tr:nth-child(13) td {
+  padding: 0;
+}

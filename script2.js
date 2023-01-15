@@ -14,15 +14,25 @@ function checkout() {
     document.getElementById("cardNum3"),
     document.getElementById("cardNum4"),
     document.getElementById("payment-methodi4"),
+    document.getElementById("payment-methodi5"),
+    document.getElementById("payment-methodi6"),
+    document.getElementById("payment-methodi7"),
   ];
   if (
     (formElements[0].checked || formElements[1].checked) &&
     formElements[2].value.length &&
+    /[a-zA-Z]+/.test(formElements[2].value) &&
+    /[a-zA-Z]+/.test(formElements[8].value) &&
+    /[a-zA-Z]+/.test(formElements[9].value) &&
     formElements[3].value.length == 4 &&
+    /\d*/.test(formElements[3].value) &&
     formElements[4].value.length == 4 &&
+    /\d*/.test(formElements[4].value) &&
     formElements[5].value.length == 4 &&
+    /\d*/.test(formElements[5].value) &&
     formElements[6].value.length == 4 &&
-    formElements[7].value.length
+    formElements[7].value.length &&
+    /\d*/.test(formElements[7].value)
   ) {
     if (
       confirm(

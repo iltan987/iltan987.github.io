@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" type="text/css" href="styles.css?test=8" />
+    <link rel="stylesheet" type="text/css" href="navbar.css?test=1" />
+    <link rel="stylesheet" type="text/css" href="contact.css?test=1" />
     <meta name="description" content="BROSMAN" />
     <title>BROSMAN - Products</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -49,14 +50,32 @@
           <tr>
             <th><label for="firstName">First Name:</label></th>
             <td>
-              <input type="text" name="firstName" id="firstName" required />
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                required
+                pattern="[a-zA-Z]+"
+              />
             </td>
           </tr>
           <tr>
             <th><label for="lastName">Last Name:</label></th>
             <td>
-              <input type="text" name="lastName" id="lastName" required />
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                required
+                pattern="[a-zA-Z]+"
+              />
             </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="mail">E-mail:</label>
+            </th>
+            <td><input type="email" name="mail" id="mail" required /></td>
           </tr>
           <tr>
             <th><label for="additionalComments">Your comments:</label></th>
