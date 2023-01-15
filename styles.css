@@ -219,14 +219,30 @@ td:has(> #totalPrice) {
 }
 
 #contactForm {
-  padding-right: 5%;
+  margin-right: 5%;
   float: right;
+  width: 30%;
+}
+
+#contactForm table {
+  width: 100%;
+}
+
+#contactForm table tr th,
+#contactForm table tr td {
+  padding: 10px 0;
+}
+
+#contactForm table tr th {
+  text-align: end;
 }
 
 #contactForm input[type="text"] {
   border: none;
   border-radius: 5px;
   height: 20px;
+  padding: 5px;
+  width: 100%;
 }
 
 #contactForm input[type="submit"] {
@@ -234,9 +250,13 @@ td:has(> #totalPrice) {
   border-radius: 5px;
   height: 30px;
   width: 100px;
+  float: right;
 }
 
 #contactForm textarea {
   border: none;
   border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  resize: none;
 }
