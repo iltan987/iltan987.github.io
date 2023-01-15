@@ -1,20 +1,46 @@
+function goToNextInput(first, next) {
+  if (document.getElementById(first).value.length == 4) {
+    document.getElementById(next).focus();
+  }
+}
+
 function checkout() {
+  var formElements = [
+    document.getElementById("payment-methodi1"),
+    document.getElementById("payment-methodi2"),
+    document.getElementById("payment-methodi3"),
+    document.getElementById("cardNum1"),
+    document.getElementById("cardNum2"),
+    document.getElementById("cardNum3"),
+    document.getElementById("cardNum4"),
+    document.getElementById("payment-methodi4"),
+  ];
   if (
-    confirm(
-      `Please confirm your order of $${
-        totalPrice > 1000
-          ? totalPrice.toFixed(2)
-          : (totalPrice * 1.1).toFixed(2)
-      } by clicking 'OK' before proceeding.`
-    )
+    (formElements[0].checked || formElements[1].checked) &&
+    formElements[2].value.length &&
+    formElements[3].value.length == 4 &&
+    formElements[4].value.length == 4 &&
+    formElements[5].value.length == 4 &&
+    formElements[6].value.length == 4 &&
+    formElements[7].value.length
   ) {
-    alert(
-      "Thank you for confirming your order. Your purchase is being processed and will be shipped to you as soon as possible. Thank you for shopping with us!"
-    );
-  } else {
-    alert(
-      "Your order has not been confirmed. You can continue to make changes to your order before confirming."
-    );
+    if (
+      confirm(
+        `Please confirm your order of $${
+          totalPrice > 1000
+            ? totalPrice.toFixed(2)
+            : (totalPrice * 1.1).toFixed(2)
+        } by clicking 'OK' before proceeding.`
+      )
+    ) {
+      alert(
+        "Thank you for confirming your order. Your purchase is being processed and will be shipped to you as soon as possible. Thank you for shopping with us!"
+      );
+    } else {
+      alert(
+        "Your order has not been confirmed. You can continue to make changes to your order before confirming."
+      );
+    }
   }
 }
 
@@ -102,11 +128,11 @@ function addProduct(product, counter) {
 }
 
 function updateProduct(productEl, product) {
+  console.log("test");
   var selectedEl = productEl.querySelector(".product-options");
   product.selectedOption = selectedEl.value;
   var currentOption = product.options[product.selectedOption];
-  productEl.querySelector(".product-priceVal").textContent =
-    currentOption.price;
+  productEl.querySelector(".product-price").textContent = currentOption.price;
   productEl.querySelector(".product-description").innerHTML =
     currentOption.description;
 }
@@ -163,11 +189,15 @@ function updateBasket() {
   });
   basketEl.appendChild(listEl);
   document.getElementById("totalPrice").innerHTML =
-    totalPrice > 1000
-      ? `${totalPrice.toFixed(2)}`
-      : `${totalPrice.toFixed(2)} + ${(totalPrice * 0.1).toFixed(
+    totalPrice == 0
+      ? "$0.00"
+      : totalPrice > 1000
+      ? `$${totalPrice.toFixed(2)} + $0.00 delivery<br />$${totalPrice.toFixed(
           2
-        )} delivery<br />${(totalPrice * 1.1).toFixed(2)}`;
+        )}`
+      : `$${totalPrice.toFixed(2)} + $${(totalPrice * 0.1).toFixed(
+          2
+        )} delivery<br />$${(totalPrice * 1.1).toFixed(2)}`;
 }
 
 function removeFromBasket(item) {

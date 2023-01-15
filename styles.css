@@ -41,11 +41,11 @@ nav img {
   height: 40px;
 }
 
+/* Style the product cards */
+
 main {
   padding: 20px;
 }
-
-/* Style the product cards */
 
 #products-table {
   width: 100%;
@@ -72,11 +72,15 @@ main {
   margin-bottom: 10px;
 }
 
-.product-card > h3 {
+.product-card h3 {
   margin: 0;
 }
 
-.product-card > select.product-options {
+#products .product-description {
+  font-size: small;
+}
+
+.product-card .product-options {
   width: 100%;
   margin-bottom: 10px;
   padding: 10px;
@@ -84,16 +88,16 @@ main {
   font-size: 16px;
 }
 
-.product-card > p.product-price {
+.product-card .product-price {
   margin-bottom: 10px;
   font-weight: bold;
 }
 
-.product-card > p.product-price:before {
+.product-card > .product-price:before {
   content: "$";
 }
 
-.product-card > button {
+.product-card button {
   border-radius: 15px;
   padding: 10px 20px;
   background-color: #333;
@@ -102,7 +106,7 @@ main {
   cursor: pointer;
 }
 
-.product-card > button:hover {
+.product-card button:hover {
   background-color: #666;
 }
 
@@ -114,11 +118,11 @@ main {
   border-radius: 10px;
 }
 
-#basket h1 {
+#basket > h1 {
   text-align: center;
 }
 
-#basket hr {
+#basket > hr {
   border: none;
   height: 2px;
   background-color: #333;
@@ -130,53 +134,68 @@ main {
 
 #payment-method {
   margin-left: auto;
-  margin-right: 0;
   width: 50%;
 }
 
-#payment-method tr th,
-#payment-method tr td {
+#payment-method > form > table > tbody > tr > th {
+  padding: 5px;
+}
+
+#payment-method > form > table > tbody > tr > td {
   padding: 20px;
 }
 
-#payment-method form table tr td table tr td,
-#payment-method form table tr td table tr th {
+#payment-method > form > table > tbody > tr > td:has(> hr) {
+  /* Table cells containing hr shouldn't have padding */
   padding: 0;
 }
 
-#payment-method form table tr td table {
-  width: 100%;
-}
-
-#payment-method form table tr td:has(> hr) {
-  padding: 0;
-}
-
-#payment-method form table tr td hr {
+#payment-method > form > table > tbody > tr > td > hr {
   background-color: #333;
   opacity: 0.5;
 }
 
-#products div p.product-description {
-  font-size: small;
+#payment-method > form > table > tbody > tr > td > table {
+  width: 100%;
 }
 
-#payment-method form table tr:nth-child(2) td table tr td {
-  text-align: center;
+#payment-method input[type="text"] {
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+  padding: 5px;
 }
 
-#payment-method form table tr:nth-child(8) td table tr td select {
+#payment-method
+  > form
+  > table
+  > tbody
+  > tr:nth-child(2)
+  > td
+  > table
+  > tbody
+  > tr
+  > td {
+  text-align: center; /* payment method radio buttons */
+}
+
+#payment-method > form > table > tbody > tr:nth-child(8) td table tr td select {
+  /* month and year selection*/
   width: 100%;
   text-align: center;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
 }
 
 #payment-method form table table:has(#totalPrice),
-#payment-method form table tr:nth-child(13) td table {
+#payment-method form table tr:last-child td table {
+  /* Total price and submit buttons are right aligned and auto size*/
   width: fit-content;
   float: right;
 }
 
-td:has(> p > span#totalPrice) {
+td:has(> #totalPrice) {
   text-align: center;
 }
 
