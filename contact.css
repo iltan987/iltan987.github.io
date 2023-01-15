@@ -36,8 +36,7 @@ main {
   text-align: end;
 }
 
-#contactForm input[type="text"],
-#contactForm input[type="email"] {
+#contactForm input:not(input[type="submit"]) {
   border: none;
   border-radius: 5px;
   height: 20px;
