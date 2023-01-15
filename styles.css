@@ -7,26 +7,38 @@ body {
 
 /* Style the navigation bar */
 
-header {
+nav {
   background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
-
-#nav {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  color: white;
   display: flex;
+  align-items: center;
+  font-size: 20px;
 }
 
-#nav li {
-  margin: 0 10px;
+nav > div {
+  padding-left: 40px;
 }
 
-#nav a {
-  color: #fff;
+nav > ul {
+  list-style-type: none;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+nav a {
+  color: white;
   text-decoration: none;
+}
+
+nav a:hover {
+  color: #999;
+}
+
+nav img {
+  height: 40px;
 }
 
 main {
@@ -43,9 +55,9 @@ main {
   text-align: center;
   border: 1px solid #333;
   border-radius: 10px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  padding: 15px;
+  /* margin-bottom: 20px;
+  margin-right: 20px; */
+  /*padding: 15px;*/
 }
 
 #products-table > tr > td:last-child > .product-card {
@@ -98,7 +110,7 @@ main {
 
 #basket {
   border: 1px solid #333;
-  padding: 10px;
+  /* padding: 10px; */
   border-radius: 10px;
 }
 
@@ -117,19 +129,19 @@ main {
 }
 
 #payment-method {
-  margin-left: auto;
-  margin-right: 0;
+  /* margin-left: auto;
+  margin-right: 0; */
   width: 50%;
 }
 
 #payment-method tr th,
 #payment-method tr td {
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 #payment-method form table tr td table tr td,
 #payment-method form table tr td table tr th {
-  padding: 0;
+  /* padding: 0; */
 }
 
 #payment-method form table tr td table {
@@ -137,7 +149,7 @@ main {
 }
 
 #payment-method form table tr td:has(> hr) {
-  padding: 0;
+  /* padding: 0; */
 }
 
 #payment-method form table tr td hr {
@@ -176,8 +188,8 @@ td:has(> p > span#totalPrice) {
 }
 
 #payment-method form table tr:nth-child(12) td {
-  padding-bottom: 0;
+  /* padding-bottom: 0; */
 }
 #payment-method form table tr:nth-child(13) td {
-  padding: 0;
+  /* padding: 0; */
 }

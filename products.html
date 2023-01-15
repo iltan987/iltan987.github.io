@@ -3,18 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="styles.css?test=3" />
+    <meta name="description" content="BROSMAN" />
     <title>BROSMAN - Products</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="favicon.png">
+    <link rel="icon" href="imgs/favicon.png">
   </head>
   <body>
-    <header>
-      <ul id="nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="contact.html">Contact</a></li>
+    <nav>
+      <div>
+        <a href="index.html">
+        <img id="siteLogo" src="imgs/favicon.png" onmouseover="changeImgSrc(true)" onmouseout="changeImgSrc(false)" alt="logo">  </a>
+      </div>
+      <ul>
+        <li><a href="#" class="active">Products</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
-    </header>
+    </nav>
     <main>
       <section id="products">
         <table id="products-table">
