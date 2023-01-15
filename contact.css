@@ -5,6 +5,10 @@ body {
   background-color: #aaa;
 }
 
+main {
+  padding: 20px;
+}
+
 /* Style the Contact Form */
 
 #customerService {

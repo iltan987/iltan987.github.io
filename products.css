@@ -5,11 +5,11 @@ body {
   background-color: #aaa;
 }
 
-/* Style the product cards */
-
 main {
   padding: 20px;
 }
+
+/* Style the product cards */
 
 #products-table {
   width: 100%;

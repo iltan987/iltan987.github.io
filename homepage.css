@@ -4,9 +4,11 @@ body {
   font-family: Arial, sans-serif;
   background-color: #aaa;
 }
+
 /* Style the homepage*/
 
 main {
+  padding: 20px;
   text-align: center;
 }
 
