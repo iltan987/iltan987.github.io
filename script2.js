@@ -80,6 +80,7 @@ function addProduct(product, counter) {
   var imageEl = document.createElement("img");
   imageEl.src = "imgs\\product" + product.id + "\\img0.jpg";
   imageEl.alt = "product image";
+  imageEl.title = "Click to see other images";
   productPageA.appendChild(imageEl);
 
   // Add the product name
