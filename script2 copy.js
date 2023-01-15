@@ -32,16 +32,7 @@ function setMaximumCardNumber(id) {
   }
 }
 
-function addProduct(product, counter) {
-  var row;
-
-  if (counter % 3 == 0) {
-    row = document.createElement("tr");
-  } else {
-    row = document.getElementById("products-table").lastChild;
-  }
-  var td = document.createElement("td");
-
+function addProduct(product) {
   var productEl = document.createElement("div");
   productEl.className = "product-card";
 
@@ -84,21 +75,23 @@ function addProduct(product, counter) {
 
   // Add a price element
   var priceEl = document.createElement("p");
-  priceEl.className = "product-price";
-  priceEl.textContent = defOpt.price;
+  var priceElUnit = document.createElement("span");
+  priceElUnit.className = "product-priceUnit";
+  priceElUnit.textContent = "$";
+  priceEl.appendChild(priceElUnit);
+  var priceElValue = document.createElement("span");
+  priceElValue.className = "product-priceVal";
+  priceElValue.textContent = defOpt.price;
+  priceEl.appendChild(priceElValue);
   productEl.appendChild(priceEl);
 
   // Add an "Add to Basket" button
   var buttonEl = document.createElement("button");
   buttonEl.textContent = "Add to Basket";
-  buttonEl.type = "button";
   buttonEl.addEventListener("click", (a) => addToBasket(product));
   productEl.appendChild(buttonEl);
 
-  td.appendChild(productEl);
-  row.appendChild(td);
-  document.getElementById("products-table").appendChild(row);
-  counter++;
+  document.getElementById("products").appendChild(productEl);
 }
 
 function updateProduct(productEl, product) {
@@ -178,7 +171,4 @@ function removeFromBasket(item) {
   updateBasket();
 }
 
-for (var i = 0; i < products.length; i++) {
-  const product = products[i];
-  addProduct(product, i);
-}
+products.forEach(addProduct);
