@@ -26,6 +26,57 @@
         <li><a href="#">Contact Us</a></li>
       </ul>
     </nav>
-    <main></main>
+    <main>
+      <div id="customerService">
+        <h1>Contact Us</h1>
+        <h2>Customer Service</h2>
+        <p><strong>Phone Number:</strong> 0 850 380 65 98</p>
+        <p><strong>E-mail:</strong> contact@brosman.com.tr</p>
+        <br />
+        <h3>HEADQUARTERS</h3>
+        <address>
+          İnönü Mah. Basın Ekspres Yolu Cemal Ulusoy Cd. No:49 34303 Yenibosna/
+          Nişantaşı/ Istanbul
+        </address>
+        <p>info@brosman.com.tr</p>
+        <p>
+          <strong>Working Hours:</strong>&nbsp; <strong>8:30-18:00</strong> on
+          <strong>weekdays</strong>.
+        </p>
+      </div>
+      <form id="contactForm">
+        <table>
+          <tr>
+            <th><label for="firstName">First Name:</label></th>
+            <td>
+              <input type="text" name="firstName" id="firstName" required />
+            </td>
+          </tr>
+          <tr>
+            <th><label for="lastName">Last Name:</label></th>
+            <td>
+              <input type="text" name="lastName" id="lastName" required />
+            </td>
+          </tr>
+          <tr>
+            <th><label for="additionalComments">Your comments:</label></th>
+            <td>
+              <textarea
+                name="additionalComments"
+                id="additionalComments"
+                cols="30"
+                rows="10"
+                placeholder="Your comments..."
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="submit" value="Send" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </main>
   </body>
 </html>

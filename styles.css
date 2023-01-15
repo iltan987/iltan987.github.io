@@ -212,3 +212,31 @@ td:has(> #totalPrice) {
 #payment-method form table tr:nth-child(13) td {
   padding: 0;
 }
+
+/* Style the Contact Form */
+#customerService {
+  display: inline-block;
+}
+
+#contactForm {
+  padding-right: 5%;
+  float: right;
+}
+
+#contactForm input[type="text"] {
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+}
+
+#contactForm input[type="submit"] {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+}
+
+#contactForm textarea {
+  border: none;
+  border-radius: 5px;
+}
